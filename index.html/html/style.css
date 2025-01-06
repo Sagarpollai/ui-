@@ -1,0 +1,20 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    background-color: red;
+    border: 1px solid white;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.box3{
+    /* visibility: hidden;  */
+}
