@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}   
+body{
+    background:linear-gradient(150deg,rgb(23, 3, 3),rgb(58, 56, 56));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: none;
+}
+    
+   
+    
+  
+
+button{
+    float: right;
+}
+textarea 
+{
+    height: 50vh;
+    width: 50wh;
+    resize:none;
+
+}
