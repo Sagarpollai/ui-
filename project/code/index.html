@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            color: rgb(0, 0, 0);
+            background:linear-gradient(150deg,rgb(75, 5, 5),rgb(132, 132, 9));
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items:center ;
+            gap: none;
+        }
+        button{
+            float: right;
+        }
+
+        textarea
+        {
+    height: 50vh;
+    width: 50vw;
+    font-size: 32px;
+    resize: none;
+}
+p{
+    color: white;
+}
+.dark{
+    color: white;
+}       
+
+    </style>
+</head>
+<body>
+    <header>
+        <button onclick="change()" id="btn">dark</button>
+    </header>
+    <h1>words ai</h1>
+    <textarea name="" id="inp" oninput="display()"></textarea>
+    <p>Total letter count: <span id="count">0</span>/400</p>
+    <script src="./script.js"></script>
+</body>
+</html>
