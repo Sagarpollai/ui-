@@ -4,13 +4,14 @@ const count=document.getElementById('count')
 function change()
 {
     document.body.classList.toggle('dark');
-    if (btn.textContent == "D")
+    if (btn.textContent == "Dark")
         {
-            btn.textContent="sagar"
+            btn.textContent="light"
         }
         else
         {
                     btn.textContent = "Dark"
         }
     }
+    
    

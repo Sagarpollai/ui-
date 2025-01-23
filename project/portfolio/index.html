@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Design Portfolio</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #eee;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        .project {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            overflow: hidden; /* Prevents image overflow */
+        }
+        .project img {
+            max-width: 100%;
+            height: 50vh;;
+            display: block; /* Prevents image from creating extra space below */
+            margin-bottom: 10px;
+        }
+        .project h2 {
+            margin-top: 0;
+        }
+        footer {
+          background-color: #333;
+          color: white;
+          text-align: center;
+          padding: 6px;
+          position: fixed; /* Ensures footer sticks to bottom */
+          bottom: 0;
+          width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Design Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="#">Projects</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <div class="project">
+            <img src="https://static.vecteezy.com/system/resources/previews/024/558/280/non_2x/businessman-isolated-illustration-ai-generative-free-png.png" alt="Sweet Surrender Logo">
+            <h2>Sweet Surrender Bakery - Brand Identity</h2>
+            <p>Sweet Surrender needed a logo that felt both classic and inviting. I used a hand-drawn font and warm color palette to evoke a sense of homemade goodness. This project included logo design, packaging mockups, and website header design.</p>
+        </div>
+
+        <div class="project">
+            <img src="./Swathi-3.jpg" alt="Other Project">
+            <h2>Other Project Title</h2>
+            <p>Description of another design project.</p>
+        </div>
+        </main>
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+</body>
+</html>
